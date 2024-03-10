@@ -1,0 +1,21 @@
+.main-content{
+    background-color: $main-pink;
+
+    &__description{}
+
+    &__section{
+        
+        &_article{}
+
+        &_box{
+
+            &-mini{
+
+                &_image{}
+
+                &_parag{}
+            }
+        }
+    }
+
+}
