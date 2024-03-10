@@ -1,0 +1,40 @@
+.header{
+
+    &__worktime{
+        height: 40px;
+        background-color: $main-black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        &_text{
+            color: $main-white;
+            font-size: 14px;
+        }
+    }
+
+    &__nav{
+
+        background-color: pink;
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+        &-box{
+            display: flex;
+            flex-direction: row;
+
+            &_logo{
+            }
+    
+            &_list{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }  
+        }
+
+        
+
+    }
+}
