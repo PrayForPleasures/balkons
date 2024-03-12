@@ -1,5 +1,27 @@
+.green__line_right{
+    background: rgb(245,245,245);
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 50%, rgba(41,242,10,1) 75%, rgba(245,245,245,1) 100%); 
+    height: 4px;
+}
+
+.green__line_left{
+    background: rgb(245,245,245);
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(41,242,10,1) 25%, rgba(245,245,245,1) 50%, rgba(245,245,245,1) 75%, rgba(245,245,245,1) 100%); 
+    height: 4px;
+}
+
 .header{
-    background-color: pink;
+    background-color: $main-white;
+
+    &__phone{
+        color: $main-white;
+        font-size: 18px;
+
+        &_image{
+            height: 14px;
+            width: 14px;
+        }
+    }
 
     &__worktime{
         height: 40px;
@@ -16,7 +38,7 @@
 
     &__nav{
 
-        height: 100px;
+        height: 80px;
         display: flex;
         align-items: center;
         justify-content: center;

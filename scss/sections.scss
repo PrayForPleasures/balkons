@@ -1,7 +1,32 @@
 .main-content{
-    background-color: $main-pink;
+    background-color: $main-white;
 
-    &__description{}
+    &__description{
+        &_span{
+            color: $main-red;
+            text-transform: uppercase;
+        }
+    }
+
+    &__installment{
+        background: rgb(245,245,245);
+        background: linear-gradient(90deg, rgba(245,245,245,1) 0%,rgba(245,245,245,1) 40%, rgba(41,242,10,1) 60%, rgba(41,0242,10,1) 80%, rgba(245,245,245,1) 100%);     
+        height: 320px;
+        padding: 45px;
+        border: 1px solid $main-white;
+        margin: 16px 0 0 160px;
+
+        &_headline{
+            text-align: center;
+            font-size: 32px;
+
+            &-span{
+                font-weight: bold;
+                text-transform: uppercase;
+                color: $main-red;
+            }
+        }
+    }
 
     &__section{
         
